@@ -1,0 +1,58 @@
+#root {
+  background: radial-gradient(circle at top right,#072147 0,#386398 45%);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.customField{
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.customField a{
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 20px;
+  text-decoration: none;
+}
+.slogan{
+    color: white;
+    text-align: center;
+}
+.mCard{
+  margin: 30px auto !important;
+  color:white !important;
+  padding: 20px;
+  border-radius: 20px !important;
+  background: linear-gradient(to bottom left,#0A295A 0,#33558A 45%);
+  box-shadow: rgb(0 0 0 / 59%) -10px 10px 20px 6px !important;
+}
+#root button{
+  background-color: #799DB2 !important;
+  color: white !important;
+}
+#root button:hover{
+  background-color: #4E82A0 !important;
+}
+#root fieldset{
+  border-color: white !important;
+  color: white !important;
+}
+#root input{
+  color: white !important;
+}
+.MuiInputAdornment-root p{
+  color: white !important;
+}
+.MuiOutlinedInput-root fieldset{
+  border-radius: 35px;
+}
+.MuiOutlinedInput-root input{
+  text-align: center;
+}
