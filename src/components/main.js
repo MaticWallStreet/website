@@ -159,9 +159,9 @@ function Main(props) {
             >
 				<box>
 			   <Button variant="contained">
-                    <a href={pdf} target="_blank" className="customButton"
+                    <a href="https://www.maticwallstreet.com/" target="_blank" className="customButton"
 					>
-                        White Paper
+                        Home
                     </a>
 					</Button>
 					
@@ -172,7 +172,7 @@ function Main(props) {
                         // target="_blank"
                         className="customButton"
                     >
-                        Docs
+                        Tutorials
                     </a>
                 </Button>
 				</box>
@@ -192,6 +192,9 @@ function Main(props) {
                 <Grid item xs={12} sm={6}>
                     <Card sx={{ width: "90%" }} className="mCard">
                         <CardContent>
+							<Typography variant="h5" gutterBottom component="div" sx={{ borderBottom: "solid 6px", pb: 1, textAlign: "center" }}>
+                                Minning Pool
+                            </Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sx={{ display: "flex", justifyContent: "space-between" }}>
                                     <Typography variant="h6" gutterBottom component="div">
@@ -296,7 +299,7 @@ function Main(props) {
                 <Grid item xs={12} sm={6}>
                     <Card sx={{ width: "90%", pb: 0 }} className="mCard">
                         <CardContent>
-                            <Typography variant="h5" gutterBottom component="div" sx={{ borderBottom: "solid 6px", pb: 1 }}>
+                            <Typography variant="h5" gutterBottom component="div" sx={{ borderBottom: "solid 6px", pb: 1, textAlign: "center" }}>
                                 Project Info
                             </Typography>
                             <Grid container sx={{ mt: 1 }}>
@@ -330,7 +333,7 @@ function Main(props) {
                     </Card>
                     <Card sx={{ width: "90%", pb: 0, textAlign: "center" }} className="mCard">
                         <CardContent>
-                            <Typography variant="h5" gutterBottom component="div">
+                            <Typography variant="h5" gutterBottom component="div" sx={{ borderBottom: "solid 6px", pb: 1, textAlign: "center" }}>
                                 Referral Link
                             </Typography>
                             <Grid container spacing={2}>
@@ -352,6 +355,18 @@ function Main(props) {
                             </Typography>
                         </CardContent>
                     </Card>
+					<Card sx={{ width: "90%", pb: 0, textAlign: "center" }} className="mCard">
+						<CardContent>
+							<Typography variant="h5" gutterBottom component="div" sx={{ borderBottom: "solid 6px", pb: 1, textAlign: "center" }}>
+                                Usefull Links
+                            </Typography>
+							<Button variant="contained">
+								<a href="https://www.binance.me/es-LA/activity/referral/offers/claim?ref=CPA_00200TJ1PB" target="_blank" className="customButton">
+								Buy MATIC on Binance
+								</a>
+							</Button>
+						</CardContent>
+					</Card>
                 </Grid>
             </Grid>
             <Box sx={{ display: "flex", justifyContent: "center", my: 8 }}>
