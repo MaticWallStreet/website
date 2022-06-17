@@ -1,7 +1,8 @@
 #root {
-  background: radial-gradient(circle at top right,#072147 0,#386398 45%);
-  background-position: 100% 0;
+  background-image: url("./assets/bg1.png");
+  background-position: center top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   display: flex;
   justify-content: center;
